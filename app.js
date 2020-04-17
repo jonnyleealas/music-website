@@ -1,1 +1,26 @@
-'use strict'; alert('Hi'); var userName = prompt('What is your name?'); var userAge = prompt('What is your age?'); document.write('<h3>' + userName + '</h3>'); 
+'use strict';
+var areYouTigerKing = '';
+
+function dmc (){
+    while ((areYouTigerKing != 'NO') && (areYouTigerKing !='YES')){
+    areYouTigerKing = prompt('Yes or No Question. Are you a Tiger King?').toUpperCase();
+   
+    }
+
+    alert ('Sweet!')
+   
+}
+   
+
+dmc();
+
+
+
+
+//areYouTigerKing();
+//function myFunctio(){
+    
+  //  var response = ('Glad to hear it!')
+
+
+
